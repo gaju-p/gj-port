@@ -6,9 +6,9 @@ import {GrInstagram} from 'react-icons/gr'
 const HeaderSocial = () => {
   return (
     <div className='header__socials'>
-        <a href="https://linkedin.com" target="_blank"><BsLinkedin /></a>
-        <a href="https://facebook.com" target="_blank"><GrFacebook /></a>
-        <a href="https://instagram.com" target="_blank"><GrInstagram /></a>
+        <a href="https://linkedin.com" target="_blank" rel="noopener"><BsLinkedin /></a>
+        <a href="https://facebook.com" target="_blank" rel="noopener"><GrFacebook /></a>
+        <a href="https://instagram.com" target="_blank" rel="noopener"><GrInstagram /></a>
     </div>
   )
 }
