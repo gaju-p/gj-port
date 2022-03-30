@@ -16,11 +16,13 @@ const data = [
   {
     avatar: Avt1,
     name: 'Uzair Mirza',
+    designation: 'Business Owner',
     review: 'Excellent work and Best Customer service appreciated.'
   },
   {
     avatar: Avt2,
     name: 'Suneet Sharma',
+    designation: 'Business Owner',
     review: 'sdfhkj dsjfhdk jdhfjd sddfkdj skhfiue seioe seue eihhrie iieri ehrheih ieri ereofe erhe ere nf i akhe kaehr.'
   },
 ]
@@ -38,13 +40,13 @@ const Testimonials = () => {
         slidesPerView={1}
         pagination={{ clickable: true }}>
         {
-          data.map(({avatar, name, review}, index) => {
+          data.map(({avatar, name, review, designation}, index) => {
             return(
               <SwiperSlide key={index} className="testimonials">
               <div className="client__avatar">
                 <img src={avatar} alt="Avatar One" />
               </div>
-              <h5 className='client__name'>{name}</h5>
+              <h5 className='client__name'>{name} | {designation}</h5>
               <small className='client__review'>{review}</small>
               </SwiperSlide> 
             )
