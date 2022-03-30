@@ -1,6 +1,6 @@
 import React from 'react'
 import './testimonials.css'
-import Avt1 from '../../assets/avatar1.jpg'
+import Avt1 from '../../assets/uzair-mirza.jpg'
 import Avt2 from '../../assets/avatar1.jpg'
 
 // import Swiper core and required modules
@@ -16,7 +16,7 @@ const data = [
   {
     avatar: Avt1,
     name: 'Uzair Mirza',
-    review: 'sdfhkj dsjfhdk jdhfjd sddfkdj skhfiue seioe seue eihhrie iieri ehrheih ieri ereofe erhe ere nf i akhe kaehr.'
+    review: 'Excellent work and Best Customer service appreciated.'
   },
   {
     avatar: Avt2,
