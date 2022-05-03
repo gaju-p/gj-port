@@ -1,7 +1,7 @@
 import React from 'react'
 import './services.css'
 import {BiCheck} from 'react-icons/bi'
-import brochure from '../../assets/cv.pdf'
+import brochure from '../../assets/brochure.pdf'
 
 const Services = () => {
   return (
