@@ -1,6 +1,7 @@
 import React from 'react'
 import './services.css'
 import {BiCheck} from 'react-icons/bi'
+import brochure from '../../assets/cv.pdf'
 
 const Services = () => {
   return (
@@ -92,7 +93,7 @@ const Services = () => {
       </div>
 
       <div className='brochure'>
-          <a href="#contact" className='btn btn-primary'>Download Brochure</a>
+          <a href={brochure} className='btn btn-primary'>Download Brochure</a>
       </div>
     </section>
   )

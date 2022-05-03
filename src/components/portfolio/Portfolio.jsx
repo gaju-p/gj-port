@@ -20,8 +20,8 @@ const data = [
   {
     id: 3,
     image: IMG3,
-    title: 'Resto Website',
-    demo: 'https://zainicurtain.com/'
+    title: 'Soccer Club',
+    demo: 'https://prolevelsa.com/'
   },
 ]
 
