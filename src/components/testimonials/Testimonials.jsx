@@ -1,7 +1,7 @@
 import React from 'react'
 import './testimonials.css'
 import Avt1 from '../../assets/uzair-mirza.jpg'
-import Avt2 from '../../assets/avatar1.jpg'
+import Avt2 from '../../assets/sanatana.jpeg'
 
 // import Swiper core and required modules
 import {Pagination} from 'swiper';
