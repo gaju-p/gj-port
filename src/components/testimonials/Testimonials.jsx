@@ -23,7 +23,7 @@ const data = [
     avatar: Avt2,
     name: 'Suneet Sharma',
     designation: 'Business Owner',
-    review: 'sdfhkj dsjfhdk jdhfjd sddfkdj skhfiue seioe seue eihhrie iieri ehrheih ieri ereofe erhe ere nf i akhe kaehr.'
+    review: 'Gajanan is best at his work and completed my requirements on time and much recommeded for his services.'
   },
 ]
 
