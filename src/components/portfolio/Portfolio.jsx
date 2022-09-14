@@ -1,8 +1,10 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '../../assets/portfolio1.jpg'
+import IMG1 from '../../assets/zaini.jpg'
 import IMG2 from '../../assets/portfolio2.jpg'
-import IMG3 from '../../assets/portfolio3.jpg'
+import IMG3 from '../../assets/tan.jpg'
+import IMG4 from '../../assets/tandoori.jpg'
+import IMG5 from '../../assets/portfolio3.jpg'
 
 const data = [
   {
@@ -14,15 +16,27 @@ const data = [
   {
     id: 2,
     image: IMG2,
-    title: 'Sanatana World',
-    demo: 'https://sanatana.world/'
+    title: 'Pieux Organic',
+    demo: 'https://pieuxorganic.com/'
   },
   {
     id: 3,
     image: IMG3,
-    title: 'Soccer Club',
-    demo: 'https://prolevelsa.com/'
+    title: 'TAN 365',
+    demo: 'https://tan365.in/'
   },
+  {
+    id: 4,
+    image: IMG4,
+    title: 'Tandoori Trail',
+    demo: 'https://tandooritrail.com/'
+  },
+  {
+    id: 5,
+    image: IMG5,
+    title: 'Sanatana World',
+    demo: 'https://sanatana.world/'
+  }
 ]
 
 const Portfolio = () => {
